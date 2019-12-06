@@ -29,13 +29,13 @@ export const IndexPageTemplate = ({
       <div
         style={{
           display: 'flex',
-          height: '150px',
+          height: '250px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
           background: 'linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) )',
-          borderRadius: '5px',
+          padding: '3rem 3rem',
         }}
       >
         <h1
@@ -68,7 +68,7 @@ export const IndexPageTemplate = ({
               <div className="content">
                 <div className="content">
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h3 className="has-text-weight-semibold is-size-2 is-uppercase" style={{color: '#032bdf'}}>{mainpitch.title}</h3>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
@@ -76,7 +76,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-2 is-uppercase" style={{color: '#032bdf'}}>
                       {heading}
                     </h3>
                     <p>{description}</p>
@@ -85,8 +85,8 @@ export const IndexPageTemplate = ({
                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
+                    <Link className="btn" to="/services">
+                      See More About Services
                     </Link>
                   </div>
                 </div>
@@ -96,8 +96,8 @@ export const IndexPageTemplate = ({
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      See More
+                    <Link className="btn" to="/projects">
+                      See More Projects
                     </Link>
                   </div>
                 </div>
