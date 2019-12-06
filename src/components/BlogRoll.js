@@ -14,40 +14,34 @@ class BlogRoll extends React.Component {
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
+                className="blog-list-item tile is-child box"
               >
-                <header>
+                  
+                  <p className="post-meta is-uppercase">
+                    <Link
+                      className="title has-text-primary is-size-3"
+                      to={post.fields.slug}
+                    >
+                      {post.frontmatter.title}
+                    </Link>
+                  </p>
                   {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
+                    <figure className="featured-thumbnail" style={{margin: "auto 0 auto 0"}}>
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
                       />
-                    </div>
+                    </figure>
                   ) : null}
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
                 <p>
+                  <br />
                   {post.excerpt}
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Project Details →
                   </Link>
                 </p>
               </article>

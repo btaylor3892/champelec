@@ -1,7 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import facebook from '../img/social/facebook.svg'
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import vimeo from '../img/social/vimeo.svg'
+import logo from '../img/champ-logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,8 +44,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
+            <Link to="/" className="has-text-centered" title="Logo">
+              <img src={logo} alt="Champion Logo" style={{ width: '300px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -64,10 +67,10 @@ const Navbar = class extends React.Component {
                 About
               </Link>
               <Link className="navbar-item" to="/products">
-                Products
+                Services
               </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                Projects
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
@@ -77,15 +80,38 @@ const Navbar = class extends React.Component {
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
+                <a title="facebook" href="https://facebook.com" className="navbar-item" target="_blank"
+                rel="noopener noreferrer">
+                  <img
+                    src={facebook}
+                    alt="Facebook"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="twitter" href="https://twitter.com" className="navbar-item" target="_blank"
+                rel="noopener noreferrer">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="instagram" href="https://instagram.com" className="navbar-item" target="_blank"
+                rel="noopener noreferrer">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+                <a title="vimeo" href="https://vimeo.com" className="navbar-item" target="_blank"
+                rel="noopener noreferrer">
+                  <img
+                    src={vimeo}
+                    alt="Vimeo"
+                    style={{ width: '1em', height: '1em' }}
+                  />
               </a>
             </div>
           </div>
