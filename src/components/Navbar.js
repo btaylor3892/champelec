@@ -63,23 +63,26 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item is-bold" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/services">
+              <Link className="navbar-item is-bold" to="/services">
                 Services
               </Link>
-              <Link className="navbar-item" to="/projects">
+              <Link className="navbar-item is-bold" to="/projects">
                 Projects
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item is-bold" to="/contact">
                 Contact
               </Link>
-              <Link className="navbar-item" to="/careers">
+              <Link className="navbar-item is-bold" to="/careers">
                 Careers
               </Link>
             </div>
+            <br />
+            <br />
             <div className="navbar-end has-text-centered">
+              <a className="navbar-item is-bold" title="phone" href="tel:561-296-4144">561-296-4144</a>
                 <a title="facebook" href="https://facebook.com" className="navbar-item" target="_blank"
                 rel="noopener noreferrer">
                   <img

@@ -17,14 +17,13 @@ class BlogRoll extends React.Component {
                 className="blog-list-item tile is-child box"
               >
                   
-                  <p className="post-meta is-uppercase">
-                    <Link
-                      className="title has-text-primary is-size-3"
-                      to={post.fields.slug}
+                  <Link
+                    className="title has-text-primary is-size-3"
+                    to={post.fields.slug}
                     >
-                      {post.frontmatter.title}
-                    </Link>
-                  </p>
+                      <p className="post-meta is-uppercase">
+                        {post.frontmatter.title}
+                      </p>
                   {post.frontmatter.featuredimage ? (
                     <figure className="featured-thumbnail" style={{margin: "auto 0 auto 0"}}>
                       <PreviewCompatibleImage
@@ -32,15 +31,16 @@ class BlogRoll extends React.Component {
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
-                      />
+                        />
                     </figure>
                   ) : null}
+                  </Link>
                 <p>
                   <br />
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="btn" to={post.fields.slug}>
                     Project Details →
                   </Link>
                 </p>

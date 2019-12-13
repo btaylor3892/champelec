@@ -12,11 +12,13 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter" style={{ paddingBottom: '48px' }}>
         <div className="content has-text-centered">
+          <Link to="/">
           <img
             src={logo}
             alt="Champion Logo"
             style={{ width: '22em'}}
           />
+          </Link>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -25,17 +27,17 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list" style={{margin: '0'}}>
                     <li>
-                      <Link to="/" className="navbar-item">
+                      <Link to="/" className="navbar-item is-bold">
                         Home
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/about">
+                      <Link className="navbar-item is-bold" to="/about">
                         About
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/services">
+                      <Link className="navbar-item is-bold" to="/services">
                         Services
                       </Link>
                     </li>
@@ -46,17 +48,17 @@ const Footer = class extends React.Component {
                 <section>
                   <ul className="menu-list" style={{margin: '0'}}>
                     <li>
-                      <Link className="navbar-item" to="/projects">
+                      <Link className="navbar-item is-bold" to="/projects">
                         Projects
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/contact">
+                      <Link className="navbar-item is-bold" to="/contact">
                         Contact
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/careers">
+                      <Link className="navbar-item is-bold" to="/careers">
                         Careers
                       </Link>
                     </li>
@@ -67,10 +69,10 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
-                      <a className="navbar-item" title="phone" href="tel:561-296-4144">Phone: 561-296-4144</a>
+                      <a className="navbar-item is-bold" title="phone" href="tel:561-296-4144">Phone: 561-296-4144</a>
                     </li>
                     <li>
-                      <a className="navbar-item" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/2875+Jupiter+Park+Dr+%23500,+Jupiter,+FL+33458/@26.9282278,-80.1412249,258m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88ded67dd0f495ab:0xcc4e0e268cd2f0dc!8m2!3d26.9282266!4d-80.1406777">
+                      <a className="navbar-item is-bold" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/2875+Jupiter+Park+Dr+%23500,+Jupiter,+FL+33458/@26.9282278,-80.1412249,258m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88ded67dd0f495ab:0xcc4e0e268cd2f0dc!8m2!3d26.9282266!4d-80.1406777">
                         <span className="address">2875 Jupiter Park Drive #500</span>
                         <br />
                         <span className="address">Jupiter, FL 33458</span>

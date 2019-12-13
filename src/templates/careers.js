@@ -1,17 +1,27 @@
 import React from 'react'
+import { PostScribe } from 'react-postscribe'
 import Layout from '../components/Layout'
 
 export default class Index extends React.Component {
   render() {
-    function createMarkup() {
-      return {__html: '<div id="BambooHR"><script src="https://championelectrical.bamboohr.com/js/jobs2.php" type="text/javascript" async></script><div id="BambooHR-Footer">Powered by<a href="http://www.bamboohr.com" target="_blank" rel="noopener external nofollow noreferrer"><img src="https://resources.bamboohr.com/images/footer-logo.png" alt="BambooHR - HR software"/></a></div></div>'};
-    }
     return (
       <Layout>
-        <section className="section">
+        <section className="section" style={{marginBottom: '100px'}}>
           <div className="container">
             <div className="content">
-              <div dangerouslySetInnerHTML={createMarkup()} />
+            <h1
+              className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen is-uppercase has-text-centered"
+              style={{
+                color: '#333',
+                lineHeight: '1',
+                padding: '0.25em',
+                margin: '20px 0'
+              }}>Careers</h1>
+              <PostScribe html={`
+                <div id="BambooHR">
+                  <script src="https://championelectrical.bamboohr.com/js/jobs.php" type="text/javascript"></script>
+                </div>
+              `} />
             </div>
           </div>
         </section>
