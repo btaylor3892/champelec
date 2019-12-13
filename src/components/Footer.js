@@ -67,9 +67,13 @@ const Footer = class extends React.Component {
               </div>
               <div className="column is-4" style={{padding: '0'}}>
                 <section className="menu">
-                  <ul className="menu-list">
+                  <ul className="menu-list" style={{margin: '0'}}>
                     <li>
                       <a className="navbar-item is-bold" title="phone" href="tel:561-296-4144">Phone: 561-296-4144</a>
+                    </li>
+                    <li>
+                      <a className="navbar-item is-bold" title="email" href="mailto:
+&#105;&#110;&#102;&#111;&#064;&#099;&#104;&#097;&#109;&#112;&#105;&#111;&#110;&#101;&#108;&#101;&#099;&#116;&#114;&#105;&#099;&#097;&#108;&#046;&#110;&#101;&#116;">&#105;&#110;&#102;&#111;&#064;&#099;&#104;&#097;&#109;&#112;&#105;&#111;&#110;&#101;&#108;&#101;&#099;&#116;&#114;&#105;&#099;&#097;&#108;&#046;&#110;&#101;&#116;</a>
                     </li>
                     <li>
                       <a className="navbar-item is-bold" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/2875+Jupiter+Park+Dr+%23500,+Jupiter,+FL+33458/@26.9282278,-80.1412249,258m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88ded67dd0f495ab:0xcc4e0e268cd2f0dc!8m2!3d26.9282266!4d-80.1406777">
@@ -83,6 +87,9 @@ const Footer = class extends React.Component {
               </div>
             </div>
             <div className="column is-12">
+              <div className="row">
+                <span className="is-bold has-text-centered" style={{color: 'white'}}>LIC#: EC13005014</span>
+              </div>
               <div className="row social">
                 <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <img

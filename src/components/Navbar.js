@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+// import facebook from '../img/social/facebook.svg'
+// import instagram from '../img/social/instagram.svg'
+// import twitter from '../img/social/twitter.svg'
+// import vimeo from '../img/social/vimeo.svg'
 import logo from '../img/champ-logo.svg'
 
 const Navbar = class extends React.Component {
@@ -83,39 +83,7 @@ const Navbar = class extends React.Component {
             <br />
             <div className="navbar-end has-text-centered">
               <a className="navbar-item is-bold" title="phone" href="tel:561-296-4144">561-296-4144</a>
-                <a title="facebook" href="https://facebook.com" className="navbar-item" target="_blank"
-                rel="noopener noreferrer">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com" className="navbar-item" target="_blank"
-                rel="noopener noreferrer">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com" className="navbar-item" target="_blank"
-                rel="noopener noreferrer">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com" className="navbar-item" target="_blank"
-                rel="noopener noreferrer">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-              </a>
+              <span className="navbar-item is-bold" >LIC#: EC13005014</span>
             </div>
           </div>
         </div>
