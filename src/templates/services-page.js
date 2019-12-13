@@ -158,7 +158,7 @@ ServicePage.propTypes = {
 export default ServicePage
 
 export const servicePageQuery = graphql`
-  query ServicePage($id: String!) {
+  query ServicePageTemplate($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

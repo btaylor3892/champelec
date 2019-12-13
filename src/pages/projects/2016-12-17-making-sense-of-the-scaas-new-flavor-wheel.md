@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: project-post
 title: Seminole Hard Rock Hollywood
 date: 2016-12-17T15:04:10.000Z
 featuredpost: false

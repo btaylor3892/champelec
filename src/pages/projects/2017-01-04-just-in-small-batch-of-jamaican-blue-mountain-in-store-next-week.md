@@ -1,5 +1,5 @@
 ---
-templateKey: 'blog-post'
+templateKey: 'project-post'
 title: 'Old Marsh Golf Club'
 date: 2017-01-04T15:04:10.000Z
 featuredimage: /img/omg.jpg
