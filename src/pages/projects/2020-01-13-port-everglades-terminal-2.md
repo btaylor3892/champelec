@@ -8,4 +8,6 @@ featuredimage: /img/everglades-terminal-2.jpg
 tags:
   - Hospitality
 ---
+![Terminal Entrance](/img/everglades-terminal-2.jpg "Port Everglades Lights")
+
 State of the art cruise Terminal.
