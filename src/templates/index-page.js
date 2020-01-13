@@ -171,6 +171,7 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
+            title
             image {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 64) {

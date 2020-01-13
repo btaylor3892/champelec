@@ -69,7 +69,7 @@ const Footer = class extends React.Component {
                 <section className="menu">
                   <ul className="menu-list" style={{margin: '0'}}>
                     <li>
-                      <a className="navbar-item is-bold" title="phone" href="tel:561-296-4144">Phone: 561-296-4144</a>
+                      <a className="navbar-item is-bold" title="phone" href="tel:561-296-4144">561-296-4144</a>
                     </li>
                     <li>
                       <a className="navbar-item is-bold" title="email" href="mailto:
