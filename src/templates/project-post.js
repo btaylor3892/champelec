@@ -29,11 +29,11 @@ export const ProjectPostTemplate = ({
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
+                <h4>Market Sector</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link to={`/sectors/${kebabCase(tag)}/`}>{tag}</Link>
                     </li>
                   ))}
                 </ul>
