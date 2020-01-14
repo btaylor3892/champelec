@@ -4,7 +4,7 @@ title: What We're About & The Path Here
 ---
 ### We Strive To Exceed Expectations & Make Friends Along The Way
 
-In our commercial construction projects we seek work that will challenge us. We enjoy driving past the buildings we've worked on, knowing that we had a part in making that building exist in the way it does today. It's rewarding to tell and showing others what we've accomplished.
+In our commercial construction projects we seek work that will challenge us. We enjoy driving past the buildings we've worked on, knowing that we had a part in making that building exist in the way it does today. It's rewarding to tell and show others what we've accomplished.
 
 In our service work, both residential and commercial we strive to give our customers the best final product for a beyond reasonable price. We enjoy dealing with our repeat customers as we have gotten to know each other over the years. Everyday we work hard to try and gain more repeat customers, because that is a sign to us that we are doing things right.
 
