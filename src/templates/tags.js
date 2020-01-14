@@ -26,7 +26,7 @@ class TagRoute extends React.Component {
                 <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <SectorProjectRoll data={this.props.data} />
                 <p>
-                  <Link className="btn" to="/sectors/">Browse All Sectors</Link>
+                  <Link className="btn" to="/sectors/">Browse All Market Sectors</Link>
                 </p>
               </div>
             </div>

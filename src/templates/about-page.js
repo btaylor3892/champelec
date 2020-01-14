@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
@@ -9,6 +10,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section section--gradient">
+      <Helmet title={`About | Champion Electrical Contracting, LLC`} />
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
