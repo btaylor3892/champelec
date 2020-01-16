@@ -3,6 +3,7 @@ templateKey: 'project-post'
 title: 'Old Marsh Golf Club'
 date: 2017-01-04T15:04:10.000Z
 featuredimage: /img/omg.jpg
+gallery: /img/casino-floor.jpg
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.

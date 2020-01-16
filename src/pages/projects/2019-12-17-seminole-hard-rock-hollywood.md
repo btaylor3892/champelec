@@ -7,6 +7,7 @@ description: >-
   tasters, has been revised for the first time this year.
 featuredpost: false
 featuredimage: /img/casino-floor.jpg
+gallery: /img/casino-floor.jpg
 tags:
   - Casino
 ---

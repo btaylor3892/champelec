@@ -24,9 +24,12 @@ const TagsPage = ({
             <h1 className="title is-size-2 is-bold-light">Project Market Sectors</h1>
             <ul className="taglist">
               {group.map(tag => (
-                <li key={tag.fieldValue}>
-                  <Link to={`/sectors/${kebabCase(tag.fieldValue)}/`}>
+                <li key={tag.fieldValue} style={{textAlign: 'center'}}>
+                  <Link to={`/sectors/${kebabCase(tag.fieldValue)}/`} style={{color: '#333', fontSize: '1.5rem'}}>
                     {tag.fieldValue} ({tag.totalCount})
+                    <div style={{width: `6rem`, textAlign: 'center', fontSize: '4rem', color: 'white', backgroundColor: '#032bdf', margin: '0 auto'}}>
+                      {tag.fieldValue.slice(0,1).toUpperCase()}
+                    </div>
                   </Link>
                 </li>
               ))}

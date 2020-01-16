@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Gallery from '../components/Gallery'
 
 export const ProjectPostTemplate = ({
   content,
@@ -13,9 +14,9 @@ export const ProjectPostTemplate = ({
   tags,
   title,
   helmet,
+  gallery,
 }) => {
   const PostContent = contentComponent || Content
-
   return (
     <section className="section">
       {helmet || ''}
@@ -26,6 +27,7 @@ export const ProjectPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
+            {gallery && <Gallery images={gallery} />}
             <PostContent content={content} />
             <br />
             <hr />
@@ -54,6 +56,7 @@ ProjectPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  gallery: PropTypes.array,
 }
 
 const ProjectPost = ({ data }) => {
@@ -64,6 +67,7 @@ const ProjectPost = ({ data }) => {
       <ProjectPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
+        gallery={post.frontmatter.gallery_image}
         description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Projects">
@@ -99,6 +103,18 @@ export const pageQuery = graphql`
         title
         description
         tags
+        gallery_image {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1120, quality: 80) {
+                src
+              }
+              fixed(width: 250, height: 150, quality: 80) {
+                src
+              }
+            }
+          }
+        }
       }
     }
   }

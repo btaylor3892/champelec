@@ -8,6 +8,7 @@ description: >-
   that's worth the effort every time.
 featuredpost: false
 featuredimage: /img/hrc.jpg
+gallery: /img/casino-floor.jpg
 tags:
   - Hospitality
 ---
