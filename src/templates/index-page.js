@@ -4,7 +4,7 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
-import ProjectRoll from '../components/ProjectRoll'
+import HomeProjectRoll from '../components/HomeProjectRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -94,7 +94,7 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2 is-uppercase" style={{color: '#032bdf'}}>
                     Our Work
                   </h3>
-                  <ProjectRoll />
+                  <HomeProjectRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/projects">
                       See More Projects
