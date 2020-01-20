@@ -2,52 +2,37 @@
 templateKey: project-post
 title: Boca West Country Club Clubhouse
 date: 2020-01-16T20:30:40.634Z
-description: High End Clubhouse with Detailed Finishes Throughout
 featuredpost: false
 featuredimage: >-
   /img/hedrick-brothers-construction-boca-west-country-club-commercial-28-1024x683.jpg
 gallery_image:
-  - alt: Clubhouse Entrance
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-28-1024x683.jpg
-  - alt: Clubhouse bar
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-01-1024x683.jpg
-  - alt: Clubhouse bar alternate view
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-02-1024x683.jpg
-  - alt: Corner Deli
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-03-1024x683.jpg
-  - alt: Restaurant seating
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-04-1024x683.jpg
-  - alt: Dining room
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-06-1024x683.jpg
-  - alt: Dining room windows
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-08-1024x683.jpg
-  - alt: Hallway
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-09-1024x683.jpg
-  - alt: Booths
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-10-1024x683.jpg
-  - alt: Wine cellar
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-11-1024x683.jpg
-  - alt: Lobby
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-13-1024x683.jpg
-  - alt: Hallway
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-14-1024x683.jpg
-  - alt: Locker room
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-21-1024x683.jpg
-  - alt: Rear of clubhouse
-    image: >-
+  - image: >-
       /img/hedrick-brothers-construction-boca-west-country-club-commercial-32-1024x683.jpg
 tags:
   - Hospitality

@@ -2,40 +2,27 @@
 templateKey: project-post
 title: Old Marsh Golf Club
 date: 2017-01-04T15:04:10.000Z
-description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
 featuredpost: false
 featuredimage: /img/omg.jpg
 gallery_image:
-  - alt: Old Marsh Bar
-    image: /img/omg.jpg
-  - alt: Lobby
-    image: >-
+  - image: /img/omg.jpg
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-lobby-1024x683.jpg
-  - alt: Fireplace
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-foyer-1024x683.jpg
-  - alt: Display cases
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-foyer-2-1024x683.jpg
-  - alt: Dining Room
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-dining-2-1024x683.jpg
-  - alt: Conference Room
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-conference-room-1024x683.jpg
-  - alt: Casual Dining Room
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-dining-1024x683.jpg
-  - alt: Covered patio dining
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-patio-1024x683.jpg
-  - alt: Grill room
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-bar-2-1-1024x683.jpg
-  - alt: Rear of clubhouse
-    image: >-
+  - image: >-
       /img/old-marsh-country-club-hedrick-brothers-construction-exterior-1024x683.jpg
 tags:
   - Hospitality

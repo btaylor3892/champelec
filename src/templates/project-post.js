@@ -10,7 +10,6 @@ import Gallery from '../components/Gallery'
 export const ProjectPostTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   helmet,
@@ -26,8 +25,8 @@ export const ProjectPostTemplate = ({
             <h1 className="title is-size-1 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
             {gallery && <Gallery images={gallery} />}
+            <br />
             <PostContent content={content} />
             <br />
             <hr />
@@ -53,7 +52,6 @@ export const ProjectPostTemplate = ({
 ProjectPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
   gallery: PropTypes.array,
@@ -68,7 +66,6 @@ const ProjectPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         gallery={post.frontmatter.gallery_image}
-        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Projects">
             <title>{`${post.frontmatter.title}`}</title>
@@ -101,7 +98,6 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        description
         tags
         gallery_image {
           image {

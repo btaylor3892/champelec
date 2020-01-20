@@ -2,18 +2,13 @@
 templateKey: project-post
 title: Seminole Coconut Creek Casino
 date: 2020-01-16T14:51:43.836Z
-description: Renovation and Expansion of the coconut creek casino.
 featuredpost: false
 featuredimage: /img/poker-room.jpg
 gallery_image:
-  - alt: Coconut Creek Casino electrical room pipe work
-    image: /img/coco-elect-room.jpg
-  - alt: Coconut Creek Casino floor
-    image: /img/vinnylauri-8103.jpg
-  - alt: Coconut Creek Casino Cashier
-    image: /img/vinnylauri-8151.jpg
-  - alt: Coconut Creek Casino Slots
-    image: /img/vinnylauri-8091.jpg
+  - image: /img/coco-elect-room.jpg
+  - image: /img/vinnylauri-8103.jpg
+  - image: /img/vinnylauri-8151.jpg
+  - image: /img/vinnylauri-8091.jpg
 tags:
   - Casino
 ---
