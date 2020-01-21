@@ -2,12 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ProjectPostTemplate } from '../../templates/project-post'
 
-const ProjectPostPreview = ({ entry, widgetFor }) => (
+const ProjectPostPreview = ({ entry, widgetFor, getAsset }) => (
   <ProjectPostTemplate
     content={widgetFor('body')}
     tags={entry.getIn(['data', 'tags'])}
     title={entry.getIn(['data', 'title'])}
-    gallery={entry.getIn(['data', 'gallery'])}
+    gallery={{image: getAsset(entry.getIn(['data', 'gallery_image']))}}
   />
 )
 
