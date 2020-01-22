@@ -13,10 +13,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://zealous-kowalevski-ea545f.netlify.com/',
         sitemap: 'https://zealous-kowalevski-ea545f.netlify.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
