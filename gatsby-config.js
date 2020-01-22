@@ -2,11 +2,21 @@ module.exports = {
   siteMetadata: {
     title: 'Champion Electrical Contracting, LLC',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Champion Electrical Contracting, LLC is a full-service electrical contractor serving Palm Beach, Broward and Miami-Dade Counties. We offer our services on both commercial and residential projects.',
+    url: "https://zealous-kowalevski-ea545f.netlify.com/",
+    image: "/img/champion-og-image.jpg"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://zealous-kowalevski-ea545f.netlify.com/',
+        sitemap: 'https://zealous-kowalevski-ea545f.netlify.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
