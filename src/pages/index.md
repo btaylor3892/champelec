@@ -12,7 +12,7 @@ description: >-
   Our mission is to provide each client with exceptional service and quality workmanship. Our company is committed to exceeding our customer’s expectations through insightful value engineering, quality installation and proper management - we are able to add value for our customers by using our skill sets to work within strict budgetary and time constraints.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/hard-hat.png
       title: Construction
       text: >
         We sell green and roasted coffee beans that are sourced directly from
