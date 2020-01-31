@@ -20,7 +20,7 @@ intro:
         variety of coffee beans grown with great care for the environment and
         local communities. Check our post or contact us directly for current
         availability.
-    - image: /img/coffee-gear.png
+    - image: /img/service-van.png
       title: Service
       text: >
         We offer a small, but carefully curated selection of brewing gear and
