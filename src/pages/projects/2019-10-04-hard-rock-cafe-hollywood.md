@@ -15,4 +15,4 @@ General Contractor: Suffolk Yates
 
 The new Hard Rock Cafe was part of the overall Low Rise Remodel portion of the New Seminole Hard Rock Hotel & Casino project. 
 
-The fast track schedule for this job demanded consistent coordination with all trades to ensure an on time completion.
+The fast track schedule for this job demanded detailed coordination with all trades to ensure an on time completion.
