@@ -4,29 +4,59 @@ title: Seminole Hard Rock Hollywood
 date: 2019-12-17T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/casino-floor.jpg
-gallery: /img/casino-floor.jpg
 tags:
   - Casino
 ---
 ![Hard Rock Casino Floor](/img/casino-floor.jpg)
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+**Seminole Hard Rock Hotel & Casino Hollywood Remodel & Expansion Project**
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+**Owner: Seminole Tribe of Florida / Seminole Gaming** 
 
-## What the updates mean to you
+**GC: Suffolk Yates, A Joint Venture**
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+Champion Electrical was involved from the onset of this project due to the fact that we have been the preferred electrical contractor for this property for the past 10 years.
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+We were involved with the coordination leading up to the selective demolition of the existing exterior Paradise Venue to make way for the new expansion as well as the 
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+Champion was responsible for the complete electrical renovation of the existing casino space, as well as, the new casino space in the New Expansion Area. 
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+**Champion Electrical also was the electrical contractor for the following other venues on this project:**
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+Renovate existing Ballroom space to allow for the new temporary Poker Room.
+
+Renovate existing ballroom space to allow for the new temporary Council Oak Restaurant.
+
+New Poker Room located in the new Retail Shop area.
+
+New Hard Rock Cafe located adjacent to the New Hard Rock Live.
+
+New Food Court 
+
+New Front Desk and Concierge Area.
+
+New Players Club located adjacent to the Front Desk.
+
+New Fresh Harvest Buffet located across from the Hard Rock Pool.
+
+New Back of House Employee Dining Rooms and EDR Kitchens.
+
+New Bakery and Butcher Shop areas in the Back of House.
+
+New Non-Smoking Slot area
+
+New Plumb Lounge (High Roller Area)
+
+New Feature Gaming area located in the center of the Casino
+
+New Center Bar located adjacent to the new Feature Gaming Area.
+
+New Comedy Club located adjacent to the new Hard Rock Live.
+
+New lighting for the Memorabilia Cases throughout the Casino.
+
+New Way finding Signage throughout the Casino.
+
+New Bathrooms located throughout the Casino.
+
+New Cash Cages throughout the Casino.
