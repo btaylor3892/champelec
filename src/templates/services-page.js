@@ -4,8 +4,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+
 
 export const ServicePageTemplate = ({
   image,
@@ -15,8 +15,6 @@ export const ServicePageTemplate = ({
   intro,
   main,
   testimonials,
-  fullImage,
-  pricing,
 }) => (
   <div className="content">
     <div
@@ -79,22 +77,7 @@ export const ServicePageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2 is-uppercase">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+              {testimonials.length > 1 && <Testimonials testimonials={testimonials} />}
             </div>
           </div>
         </div>
@@ -140,8 +123,6 @@ const ServicePage = ({ data }) => {
         intro={frontmatter.intro}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   )
@@ -164,7 +145,7 @@ export const servicePageQuery = graphql`
         title
         image {
           childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
+            fluid(maxWidth: 2048, quality: 80) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -183,8 +164,6 @@ export const servicePageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
         main {
           heading
@@ -223,23 +202,6 @@ export const servicePageQuery = graphql`
         testimonials {
           author
           quote
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
-          }
         }
       }
     }

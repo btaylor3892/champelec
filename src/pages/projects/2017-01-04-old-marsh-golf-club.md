@@ -7,23 +7,23 @@ featuredimage: /img/omg.jpg
 gallery_image:
   - image: /img/omg.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-lobby-1024x683.jpg
+      /img/old-marsh-country-club-lobby-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-foyer-1024x683.jpg
+      /img/old-marsh-country-club-foyer-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-foyer-2-1024x683.jpg
+      /img/old-marsh-country-club-foyer-2-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-dining-2-1024x683.jpg
+      /img/old-marsh-country-club-dining-2-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-conference-room-1024x683.jpg
+      /img/old-marsh-country-club-conference-room-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-dining-1024x683.jpg
+      /img/old-marsh-country-club-dining-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-patio-1024x683.jpg
+      /img/old-marsh-country-club-patio-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-bar-2-1-1024x683.jpg
+      /img/old-marsh-country-club-bar-2-1-1024x683.jpg
   - image: >-
-      /img/old-marsh-country-club-hedrick-brothers-construction-exterior-1024x683.jpg
+      /img/old-marsh-country-club-exterior-1024x683.jpg
 tags:
   - Hospitality
 ---

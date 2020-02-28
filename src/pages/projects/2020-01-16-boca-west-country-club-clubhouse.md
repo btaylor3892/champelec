@@ -4,36 +4,36 @@ title: Boca West Country Club Clubhouse
 date: 2020-01-16T20:30:40.634Z
 featuredpost: false
 featuredimage: >-
-  /img/hedrick-brothers-construction-boca-west-country-club-commercial-28-1024x683.jpg
+  /img/boca-west-country-club-28-1024x683.jpg
 gallery_image:
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-28-1024x683.jpg
+      /img/boca-west-country-club-28-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-01-1024x683.jpg
+      /img/boca-west-country-club-01-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-02-1024x683.jpg
+      /img/boca-west-country-club-02-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-03-1024x683.jpg
+      /img/boca-west-country-club-03-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-04-1024x683.jpg
+      /img/boca-west-country-club-04-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-06-1024x683.jpg
+      /img/boca-west-country-club-06-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-08-1024x683.jpg
+      /img/boca-west-country-club-08-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-09-1024x683.jpg
+      /img/boca-west-country-club-09-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-10-1024x683.jpg
+      /img/boca-west-country-club-10-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-11-1024x683.jpg
+      /img/boca-west-country-club-11-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-13-1024x683.jpg
+      /img/boca-west-country-club-13-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-14-1024x683.jpg
+      /img/boca-west-country-club-14-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-21-1024x683.jpg
+      /img/boca-west-country-club-21-1024x683.jpg
   - image: >-
-      /img/hedrick-brothers-construction-boca-west-country-club-commercial-32-1024x683.jpg
+      /img/boca-west-country-club-32-1024x683.jpg
 tags:
   - Hospitality
 ---

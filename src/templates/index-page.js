@@ -155,6 +155,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
+        subheading
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 80) {
@@ -162,13 +163,10 @@ export const pageQuery = graphql`
             }
           }
         }
-        heading
-        subheading
         mainpitch {
           title
           description
         }
-        description
         intro {
           blurbs {
             title
@@ -181,8 +179,6 @@ export const pageQuery = graphql`
             }
             text
           }
-          heading
-          description
         }
       }
     }

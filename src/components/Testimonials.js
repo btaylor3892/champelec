@@ -4,7 +4,7 @@ import { v4 } from 'uuid'
 
 const Testimonials = ({ testimonials }) => (
   <div>
-    {testimonials.map(testimonial => (
+    {testimonials.splice(0,1).map(testimonial => (
       <article key={v4()} className="message">
         <div className="message-body">
           {testimonial.quote}
