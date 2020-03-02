@@ -18,7 +18,7 @@ export const ServicePageTemplate = ({
 }) => (
   <div className="content">
     <div
-      className="full-width-image-container margin-top-0"
+      className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
