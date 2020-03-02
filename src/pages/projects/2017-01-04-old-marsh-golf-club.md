@@ -3,7 +3,8 @@ templateKey: project-post
 title: Old Marsh Golf Club
 date: 2017-01-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/old-marsh-country-club-casual-dining-1024x683
+featuredimage: >-
+    /img/old-marsh-country-club-casual-dining-1024x683
 gallery_image:
   - image: >-
       /img/old-marsh-country-club-casual-dining-1024x683
