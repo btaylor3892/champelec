@@ -17,7 +17,7 @@ tags:
 
 Champion Electrical was involved from the onset of this project due to the fact that we have been the preferred electrical contractor for this property for the past 10 years.
 
-We were involved with the coordination leading up to the selective demolition of the existing exterior Paradise Venue to make way for the new expansion as well as the 
+We were involved with the coordination leading up to the selective demolition of the existing exterior Paradise Venue to make way for the new expansion.
 
 Champion was responsible for the complete electrical renovation of the existing casino space, as well as, the new casino space in the New Expansion Area. 
 
