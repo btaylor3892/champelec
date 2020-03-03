@@ -11,25 +11,15 @@ intro:
     - image: /img/hard-hat.png
       title: Construction
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+        We have extensive experience in the electrical construction business. Champion has been involved in projects as large as over 20 million dollars. Many of our projects have been completed in fast track timelines with multiple shifts per day. Our projects have been located all the way from Tampa to Miami Beach. We have the ability to work all the way from design with BIM capabilities until the end when your keys are handed to you.
     - image: /img/service-van.png
       title: Service
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        Our service electrical work is particularly important to us because it is very often in customer's homes and businesses, where quality, safety and price is most important. In order to keep your business running smoothly or to make your time spent in your home undisturbed we use quality products and install them to the best industry standards to keep it working for years to come.
 main:
-  heading: Great coffee with no compromises
+  heading: Our Experience and Quality of Work Separates Us
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    We might only have pictures to show from our construction projects, however we are equally proud of all the work our service department has done for our customers. Here are jus some pictures of our projects, if you would like please click the button below to go look at more of our projects!
   image1:
     alt: Old Marsh Golf Clubhouse Entry
     image: /img/old-marsh-country-club-lobby-1024x683.jpg

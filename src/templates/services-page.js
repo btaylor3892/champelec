@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
@@ -75,6 +75,11 @@ export const ServicePageTemplate = ({
                     <article className="tile is-child">
                       <PreviewCompatibleImage imageInfo={main.image3} />
                     </article>
+                  </div>
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/projects">
+                      See More Of Our Projects
+                    </Link>
                   </div>
                 </div>
               </div>
