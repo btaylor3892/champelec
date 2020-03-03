@@ -3,14 +3,15 @@ templateKey: project-post
 title: Port Everglades Terminal 2
 date: 2018-01-13T21:21:59.924Z
 featuredpost: false
-featuredimage: /img/port-everglades-terminal-2.jpg
+featuredimage: /img/pet-2-7.jpg
 gallery_image:
-  - image: /img/port-everglades-terminal-2.jpg
-  - image: /img/pet2_4.jpg
-  - image: /img/pet2_1.jpg
-  - image: /img/pet2_2.jpg
-  - image: /img/pet2_3.jpg
-  - image: /img/pet2_6.jpg
+  - image: /img/pet-2-1.jpg
+  - image: /img/pet-2-2.jpg
+  - image: /img/pet-2-3.jpg
+  - image: /img/pet-2-4.jpg
+  - image: /img/pet-2-5.jpg
+  - image: /img/pet-2-6.jpg
+  - image: /img/pet-2-7.jpg
 tags:
   - Transportation
 ---

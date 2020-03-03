@@ -3,13 +3,13 @@ templateKey: project-post
 title: Seminole Coconut Creek Casino
 date: 2012-01-16T14:51:43.836Z
 featuredpost: false
-featuredimage: /img/poker-room.jpg
+featuredimage: /img/coco-1.jpg
 gallery_image:
-  - image: /img/poker-room.jpg
-  - image: /img/coco-elect-room.jpg
-  - image: /img/vinnylauri-8103.jpg
-  - image: /img/vinnylauri-8151.jpg
-  - image: /img/vinnylauri-8091.jpg
+  - image: /img/coco-1.jpg
+  - image: /img/coco-2.jpg
+  - image: /img/coco-3.jpg
+  - image: /img/coco-4.jpg
+  - image: /img/coco-5.jpg
 tags:
   - Casino
 ---
