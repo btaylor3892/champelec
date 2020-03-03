@@ -12,12 +12,12 @@ gallery_image:
 tags:
   - Casino
 ---
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+Owner: Seminole Tribe of Florida
 
+General Contractor: Moss Anderson JV
 
+This project was a fast track project (9 months) to completely renovate the existing casino as well adding new casino space and new restaurants.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+Champion was charged with coordinating and maintaining all power and data to the existing Casino while moving all of the power to a new second floor electric room.
 
-
-
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+The new electric room also contained a new UPS System which covered all gaming circuits.
