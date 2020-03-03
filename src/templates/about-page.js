@@ -7,7 +7,7 @@ import Content, { HTMLContent } from '../components/Content'
 
 export const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content
-
+  console.log(image.childImageSharp)
   return (
     <div className="content">
       <div
