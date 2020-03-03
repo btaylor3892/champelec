@@ -12,12 +12,12 @@ gallery_image:
   - image: /img/pet2_3.jpg
   - image: /img/pet2_6.jpg
 tags:
-  - Hospitality
+  - Transportation
 ---
-Owner: Carnival Cruise Lines
-
-General Contractor: Moss & Associates
-
 The Terminal 2 Project was in conjunction with the Port Authority to enhance the terminal with the technology compatible with the Carnival Cruise Princess Line Medallion Program.
 
 The terminal was upgraded with the state of the art interactive portal screens, as well as a 90 foot video wall, all linked to the Medallion program which allows passengers a personal experience on their Princess Cruise.
+
+**Owner: Carnival Cruise Lines**
+
+**General Contractor: Moss & Associates**

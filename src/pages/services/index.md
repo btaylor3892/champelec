@@ -2,7 +2,7 @@
 templateKey: 'services-page'
 path: /services
 title: Our Services
-image: /img/015-3908-v2.jpg
+image: /img/hrc-tampa-1.jpg
 heading: Best of Both Worlds
 description: >-
   At Champion we provide both construction electrical contracting and electrical service for your home, business or government facility.
@@ -25,10 +25,10 @@ main:
     image: /img/old-marsh-country-club-lobby-1024x683.jpg
   image2:
     alt: Hard Rock Cafe Hollywood Florida
-    image: /img/hard-rock-hollywood-4.jpg
+    image: /img/hrc-hollywood-4.jpg
   image3:
     alt: Hard Rock Hollywood Casino Floor
-    image: /img/casino-floor.jpg
+    image: /img/SHHR-1.jpg
 testimonials:
   - author: Placeholder Testimonial
     quote: >-

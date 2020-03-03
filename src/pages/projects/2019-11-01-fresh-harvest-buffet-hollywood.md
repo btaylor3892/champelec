@@ -1,6 +1,6 @@
 ---
 templateKey: project-post
-title: Fresh Harvest Buffet
+title: Fresh Harvest Buffet Hollywood
 date: 2019-11-01T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/Fresh_Harvest_1_3800x2430.jpg

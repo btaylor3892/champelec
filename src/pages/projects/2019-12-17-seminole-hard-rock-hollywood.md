@@ -3,7 +3,11 @@ templateKey: project-post
 title: Seminole Hard Rock Hollywood
 date: 2019-12-17T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/casino-floor.jpg
+featuredimage: /img/SHHR-1.jpg
+gallery_image:
+  - image: /img/SHHR-1.jpg
+  - image: /img/SHHR-2.jpg
+  - image: /img/SHHR-3.jpg
 tags:
   - Casino
 ---

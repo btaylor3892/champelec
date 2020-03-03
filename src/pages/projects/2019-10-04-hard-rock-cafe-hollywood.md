@@ -3,12 +3,12 @@ templateKey: project-post
 title: Hard Rock Cafe Hollywood FL
 date: 2019-10-04T15:04:10.000Z
 featuredpost: false
-featuredimage: /img/hard-rock-hollywood-4.jpg
+featuredimage: /img/hrc-hollywood-4.jpg
 gallery_image:
-  - image: /img/hard-rock-hollywood-4.jpg
-  - image: /img/hard-rock-hollywood-1.jpg
-  - image: /img/hard-rock-hollywood-2.jpg
-  - image: /img/hard-rock-hollywood-3.jpg
+  - image: /img/hrc-hollywood-4.jpg
+  - image: /img/hrc-hollywood-1.jpg
+  - image: /img/hrc-hollywood-2.jpg
+  - image: /img/hrc-hollywood-3.jpg
 tags:
   - Hospitality
 ---

@@ -35,15 +35,9 @@ gallery_image:
   - image: >-
       /img/boca-west-country-club-32-1024x683.jpg
 tags:
-  - Hospitality
+  - Country Clubs
 ---
-This project started off with the demolition of the existing clubhouse.
-
-We installed a new FPL Service to power the new clubhouse.
-
-This project included new Mens & Ladies Locker Rooms, Card Room, Multiple Restaurant Venues.
-
-New Cart Storage, Pro Shop etc.
+Work on this project started off with the demolition of the existing clubhouse. We therefore disconnected power to the building to make it safe for demolition to begin. We then installed a new FPL Service to power the new clubhouse. This project included new Mens & Ladies Locker Rooms, Card Room, Pro Shop, Golf Cart Storage and Multiple Restaurant Venues. The very detailed quality of work achieved on this project can be seen throughout, but is especially visible in the elegant lighting of the restaurants, Pro Shop and the building's exterior.
 
 **Owner: Boca West Country Club**
 

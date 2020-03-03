@@ -16,11 +16,11 @@ gallery_image:
   - image: /img/old-marsh-country-club-bar-2-1-1024x683.jpg
   - image: /img/old-marsh-country-club-exterior-1024x683.jpg
 tags:
-  - Hospitality
+  - Country Clubs
 ---
 The Old Marsh Golf Club Renovation consisted of building a new Golf Operations building as well as a large renovation of the existing clubhouse.
 
-The renovation included a new larger ladies locker room, new bathroom & showers, new private dining room, new administration space, new casual dining area and a new outdoor patio.
+The renovation included a new larger ladies locker room, new bathroom & showers, new private dining room, new administration space, new casual dining area and a new outdoor patio. Throughout the renovated clubhouse new LED lights were installed as well as a Lutron dimming system to control them. A new automatic transfer switch and generator was installed to keep the building powered during an electrical outage. Also for emergency situations, a new fire alarm system was installed.
 
 **Owner: Old Marsh Golf Club, Inc.**
 
