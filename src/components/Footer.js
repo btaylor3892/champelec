@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import logo from '../img/champ-logo-reverse.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
+// import facebook from '../img/social/facebook.svg'
+// import instagram from '../img/social/instagram.svg'
+// import twitter from '../img/social/twitter.svg'
+// import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -90,7 +90,7 @@ const Footer = class extends React.Component {
               <div className="row">
                 <span className="is-bold has-text-centered" style={{color: 'white'}}>LIC#: EC13005014</span>
               </div>
-              <div className="row social">
+              {/* <div className="row social">
                 <a title="facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <img
                     src={facebook}
@@ -120,7 +120,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

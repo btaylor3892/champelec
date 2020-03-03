@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Full Service Electrical Contractor
-image: /img/casino-floor.jpg
+image: /img/SHHR_Hero_3800x1000.jpg
 subheading: Over 10 Years Serving Palm Beach, Broward & Miami-Dade Counties
 mainpitch:
   title: Why Champion

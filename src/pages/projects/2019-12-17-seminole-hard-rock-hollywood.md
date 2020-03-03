@@ -7,17 +7,9 @@ featuredimage: /img/casino-floor.jpg
 tags:
   - Casino
 ---
-![Hard Rock Casino Floor](/img/casino-floor.jpg)
-
-**Seminole Hard Rock Hotel & Casino Hollywood Remodel & Expansion Project**
-
-**Owner: Seminole Tribe of Florida / Seminole Gaming** 
-
-**GC: Suffolk Yates, A Joint Venture**
-
 Champion Electrical was involved from the onset of this project due to the fact that we have been the preferred electrical contractor for this property for the past 10 years.
 
-We were involved with the coordination leading up to the selective demolition of the existing exterior Paradise Venue to make way for the new expansion.
+We were involved with the coordination leading up to the selective demolition of the existing exterior Paradise Venue to make way for the new expansion as well as the 
 
 Champion was responsible for the complete electrical renovation of the existing casino space, as well as, the new casino space in the New Expansion Area. 
 
@@ -60,3 +52,9 @@ New Way finding Signage throughout the Casino.
 New Bathrooms located throughout the Casino.
 
 New Cash Cages throughout the Casino.
+
+**Seminole Hard Rock Hotel & Casino Hollywood Remodel & Expansion Project**
+
+**Owner: Seminole Tribe of Florida / Seminole Gaming** 
+
+**GC: Suffolk Yates, A Joint Venture**

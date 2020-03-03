@@ -18,10 +18,10 @@ gallery_image:
 tags:
   - Hospitality
 ---
-Owner: Old Marsh Golf Club, Inc.
-
-General Contractor: Hedrick Brothers Construction, Inc.
-
 The Old Marsh Golf Club Renovation consisted of building a new Golf Operations building as well as a large renovation of the existing clubhouse.
 
 The renovation included a new larger ladies locker room, new bathroom & showers, new private dining room, new administration space, new casual dining area and a new outdoor patio.
+
+**Owner: Old Marsh Golf Club, Inc.**
+
+**General Contractor: Hedrick Brothers Construction, Inc.**

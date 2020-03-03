@@ -15,7 +15,8 @@ export const ServicePageTemplate = ({
   intro,
   main,
   testimonials,
-}) => (
+}) => { 
+  return (
   <div className="content">
     <div
       className="full-width-image margin-top-0"
@@ -40,7 +41,7 @@ export const ServicePageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
+            <div className="column is-offset-1">
               <h3 className="has-text-weight-semibold is-size-2 is-uppercase">{heading}</h3>
               <p>{description}</p>
             </div>
@@ -49,7 +50,7 @@ export const ServicePageTemplate = ({
             <div className="column is-10 is-offset-1">
               <Features gridItems={intro.blurbs} />
               <div className="columns">
-                <div className="column is-7">
+                <div className="column">
                   <h3 className="has-text-weight-semibold is-size-3 is-uppercase">
                     {main.heading}
                   </h3>
@@ -84,7 +85,7 @@ export const ServicePageTemplate = ({
       </div>
     </section>
   </div>
-)
+)}
 
 ServicePageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),

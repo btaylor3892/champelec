@@ -35,12 +35,12 @@ main:
     image: /img/old-marsh-country-club-lobby-1024x683.jpg
   image2:
     alt: Hard Rock Cafe Hollywood Florida
-    image: /img/hrc.jpg
+    image: /img/hard-rock-hollywood-4.jpg
   image3:
     alt: Hard Rock Hollywood Casino Floor
     image: /img/casino-floor.jpg
 testimonials:
-  author: Sample
-  quote: >-
-    Sample
+  - author: Placeholder Testimonial
+    quote: >-
+      Don't delete this testimonial, it is just a placeholder.
 ---

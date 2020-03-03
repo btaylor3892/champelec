@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Hard Rock Cafe Tampa
-date: 2020-01-17T21:08:42.364Z
+date: 2010-08-31T21:08:42.364Z
 featuredpost: false
 featuredimage: /img/015-3908-v2.jpg
 gallery_image:
@@ -11,14 +11,14 @@ gallery_image:
 tags:
   - Hospitality
 ---
-**Owner: Hard Rock International**
-
-**Contractor:** **Manhattan Kraft**
-
-**Location: Seminole Hard Rock Hotel & Casino Tampa**
-
 This Hard Rock Cafe was a prototype for new design for future Hard Rock Cafe's around the world.
 
 It was a design build project in collaboration with GSA Consulting Engineers and was a fast track project from the very start.
 
 The entire project from demo through completion was six months.
+
+**Owner: Hard Rock International**
+
+**Contractor:** **Manhattan Kraft**
+
+**Location: Seminole Hard Rock Hotel & Casino Tampa**

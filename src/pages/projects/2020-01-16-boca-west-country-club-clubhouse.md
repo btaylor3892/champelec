@@ -1,7 +1,7 @@
 ---
 templateKey: project-post
 title: Boca West Country Club Clubhouse
-date: 2020-01-16T20:30:40.634Z
+date: 2017-01-16T20:30:40.634Z
 featuredpost: false
 featuredimage: >-
   /img/boca-west-country-club-28-1024x683.jpg
@@ -37,10 +37,6 @@ gallery_image:
 tags:
   - Hospitality
 ---
-Owner: Boca West Country Club
-
-General Contractor: Hedrick Brothers Construction
-
 This project started off with the demolition of the existing clubhouse.
 
 We installed a new FPL Service to power the new clubhouse.
@@ -48,3 +44,7 @@ We installed a new FPL Service to power the new clubhouse.
 This project included new Mens & Ladies Locker Rooms, Card Room, Multiple Restaurant Venues.
 
 New Cart Storage, Pro Shop etc.
+
+**Owner: Boca West Country Club**
+
+**General Contractor: Hedrick Brothers Construction**
