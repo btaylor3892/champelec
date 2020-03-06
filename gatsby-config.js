@@ -5,7 +5,7 @@ module.exports = {
       'Champion Electrical Contracting, LLC is a full-service electrical contractor serving Palm Beach, Broward and Miami-Dade Counties. We offer our services on both commercial and residential projects.',
     url: "https://zealous-kowalevski-ea545f.netlify.com/",
     siteUrl: "https://zealous-kowalevski-ea545f.netlify.com/",
-    image: "/img/champion-og-image.jpg"
+    image: "/img/champelec-og-image.jpg"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
