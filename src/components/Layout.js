@@ -7,7 +7,7 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children, location }) => {
-  const { title, description } = useSiteMetadata()
+  const { title, description, siteUrl, image } = useSiteMetadata()
   return (
     <div>
       <Helmet>
@@ -43,7 +43,7 @@ const TemplateWrapper = ({ children, location }) => {
         <meta property="og:url" content={`${location}`} />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/champelec-og-image.jpg`}
+          content={`${siteUrl}${image}`}
         />
         <meta property="business:contact_data:street_address" content="2875 Jupiter Park Drive #500" />
         <meta property="business:contact_data:locality" content="Jupiter" />
