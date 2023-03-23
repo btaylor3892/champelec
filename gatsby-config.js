@@ -3,9 +3,9 @@ module.exports = {
     title: 'Champion Electrical Contracting, LLC',
     description:
       'Champion Electrical Contracting, LLC is a full-service electrical contractor serving Palm Beach, Broward and Miami-Dade Counties. We offer our services on both commercial and residential projects.',
-    url: "https://www.championelectrical.net/",
-    siteUrl: "https://www.championelectrical.net/",
-    image: "/img/champelec-og-image.jpg"
+    url: 'https://www.championelectrical.net/',
+    siteUrl: 'https://www.championelectrical.net/',
+    image: '/img/champelec-og-image.jpg',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -14,12 +14,15 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         sitemap: 'https://www.championelectrical.net/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
     },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -42,8 +45,7 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    `gatsby-plugin-netlify-cms-paths`,
     {
       resolve: 'gatsby-transformer-remark',
       options: {
@@ -69,11 +71,12 @@ module.exports = {
               destinationDir: 'static',
             },
           },
+          `gatsby-plugin-netlify-cms-paths`,
         ],
       },
     },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: `gatsby-plugin-static-cms`,
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
@@ -87,4 +90,4 @@ module.exports = {
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
-}
+};

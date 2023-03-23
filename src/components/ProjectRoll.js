@@ -1,46 +1,46 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import { PreviewCompatibleImage } from './PreviewCompatibleImage';
 
 class ProjectRoll extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
+      <div className='columns is-multiline'>
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className="blog-list-item tile is-child box"
-              >
-                  
-                  <Link
-                    className="title has-text-primary is-size-3"
-                    to={post.fields.slug}
-                    >
-                      <p className="post-meta is-uppercase">
-                        {post.frontmatter.title}
-                      </p>
+            <div className='is-parent column is-6' key={post.id}>
+              <article className='blog-list-item tile is-child box'>
+                <Link
+                  className='title has-text-primary is-size-3'
+                  to={post.fields.slug}
+                >
+                  <p className='post-meta is-uppercase'>
+                    {post.frontmatter.title}
+                  </p>
                   {post.frontmatter.featuredimage ? (
-                    <figure className="featured-thumbnail" style={{margin: "auto 0 auto 0"}}>
+                    <figure
+                      className='featured-thumbnail'
+                      style={{ margin: 'auto 0 auto 0' }}
+                    >
                       <PreviewCompatibleImage
-                        imageInfo={{
+                        data={{
                           image: post.frontmatter.featuredimage,
                           alt: `featured image thumbnail for post ${post.frontmatter.title}`,
                         }}
-                        />
+                      />
                     </figure>
                   ) : null}
-                  </Link>
+                </Link>
                 <p>
                   <br />
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="btn" to={post.fields.slug}>
+                  <Link className='btn' to={post.fields.slug}>
                     Project Details →
                   </Link>
                 </p>
@@ -48,7 +48,7 @@ class ProjectRoll extends React.Component {
             </div>
           ))}
       </div>
-    )
+    );
   }
 }
 
@@ -58,14 +58,14 @@ ProjectRoll.propTypes = {
       edges: PropTypes.array,
     }),
   }),
-}
+};
 
 export default () => (
   <StaticQuery
     query={graphql`
       query ProjectRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { frontmatter: { date: DESC } }
           filter: { frontmatter: { templateKey: { eq: "project-post" } } }
         ) {
           edges {
@@ -82,9 +82,7 @@ export default () => (
                 featuredpost
                 featuredimage {
                   childImageSharp {
-                    fluid(maxWidth: 620, quality: 80) {
-                      ...GatsbyImageSharpFluid_withWebp
-                    }
+                    gatsbyImageData(quality: 80, width: 620)
                   }
                 }
               }
@@ -95,4 +93,4 @@ export default () => (
     `}
     render={(data, count) => <ProjectRoll data={data} count={count} />}
   />
-)
+);

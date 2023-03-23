@@ -1,43 +1,45 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import SectorProjectRoll from '../components/SectorProjectRoll'
+import React from 'react';
+import Helmet from 'react-helmet';
+import { Link, graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import SectorProjectRoll from '../components/SectorProjectRoll';
 
 class TagRoute extends React.Component {
   render() {
-    const tag = this.props.pageContext.tag
-    const title = this.props.data.site.siteMetadata.title
-    const totalCount = this.props.data.allMarkdownRemark.totalCount
+    const tag = this.props.pageContext.tag;
+    const title = this.props.data.site.siteMetadata.title;
+    const totalCount = this.props.data.allMarkdownRemark.totalCount;
     const tagHeader = `${totalCount} Project${
       totalCount === 1 ? '' : 's'
-    } in ${tag} Market Sector`
+    } in ${tag} Market Sector`;
 
     return (
       <Layout>
-        <section className="section">
+        <section className='section'>
           <Helmet title={`${tag} | ${title}`} />
-          <div className="container content">
-            <div className="columns">
+          <div className='container content'>
+            <div className='columns'>
               <div
-                className="column is-10 is-offset-1"
+                className='column is-10 is-offset-1'
                 style={{ marginBottom: '6rem' }}
               >
-                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
+                <h3 className='title is-size-4 is-bold-light'>{tagHeader}</h3>
                 <SectorProjectRoll data={this.props.data} />
                 <p>
-                  <Link className="btn" to="/sectors/">Browse All Market Sectors</Link>
+                  <Link className='btn' to='/sectors/'>
+                    Browse All Market Sectors
+                  </Link>
                 </p>
               </div>
             </div>
           </div>
         </section>
       </Layout>
-    )
+    );
   }
 }
 
-export default TagRoute
+export default TagRoute;
 
 export const tagPageQuery = graphql`
   query TagPage($tag: String) {
@@ -66,9 +68,7 @@ export const tagPageQuery = graphql`
             featuredpost
             featuredimage {
               childImageSharp {
-                fluid(maxWidth: 620, quality: 80) {
-                  ...GatsbyImageSharpFluid_withWebp
-                }
+                gatsbyImageData(width: 620, quality: 80)
               }
             }
           }
@@ -76,4 +76,4 @@ export const tagPageQuery = graphql`
       }
     }
   }
-`
+`;

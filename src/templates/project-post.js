@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-import Gallery from '../components/Gallery'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { kebabCase } from 'lodash';
+import Helmet from 'react-helmet';
+import { graphql, Link } from 'gatsby';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
+import Gallery from '../components/Gallery';
 
 export const ProjectPostTemplate = ({
   content,
@@ -15,14 +15,14 @@ export const ProjectPostTemplate = ({
   helmet,
   gallery,
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
   return (
-    <section className="section">
+    <section className='section'>
       {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-1 has-text-weight-bold is-bold-light">
+      <div className='container content'>
+        <div className='columns'>
+          <div className='column is-10 is-offset-1'>
+            <h1 className='title is-size-1 has-text-weight-bold is-bold-light'>
               {title}
             </h1>
             {gallery && <Gallery images={gallery} />}
@@ -33,10 +33,12 @@ export const ProjectPostTemplate = ({
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Market Sector</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
+                <ul className='taglist'>
+                  {tags.map((tag) => (
                     <li key={tag + `tag`}>
-                      <Link className="btn" to={`/sectors/${kebabCase(tag)}/`}>{tag}</Link>
+                      <Link className='btn' to={`/sectors/${kebabCase(tag)}/`}>
+                        {tag}
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -46,8 +48,8 @@ export const ProjectPostTemplate = ({
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 ProjectPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
@@ -55,10 +57,10 @@ ProjectPostTemplate.propTypes = {
   title: PropTypes.string,
   helmet: PropTypes.object,
   gallery: PropTypes.array,
-}
+};
 
 const ProjectPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -67,10 +69,10 @@ const ProjectPost = ({ data }) => {
         contentComponent={HTMLContent}
         gallery={post.frontmatter.gallery_image}
         helmet={
-          <Helmet titleTemplate="%s | Projects">
+          <Helmet titleTemplate='%s | Projects'>
             <title>{`${post.frontmatter.title}`}</title>
             <meta
-              name="description"
+              name='description'
               content={`${post.frontmatter.description}`}
             />
           </Helmet>
@@ -79,16 +81,16 @@ const ProjectPost = ({ data }) => {
         title={post.frontmatter.title}
       />
     </Layout>
-  )
-}
+  );
+};
 
 ProjectPost.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
-}
+};
 
-export default ProjectPost
+export default ProjectPost;
 
 export const pageQuery = graphql`
   query ProjectPostByID($id: String!) {
@@ -102,16 +104,11 @@ export const pageQuery = graphql`
         gallery_image {
           image {
             childImageSharp {
-              fluid(maxWidth: 1120, quality: 80) {
-                src
-              }
-              fixed(width: 250, height: 150, quality: 80) {
-                src
-              }
+              gatsbyImageData(quality: 80, width: 1000)
             }
           }
         }
       }
     }
   }
-`
+`;
