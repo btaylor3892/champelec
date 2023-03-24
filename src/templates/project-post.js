@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import Gallery from '../components/Gallery';
 
-export const ProjectPostTemplate = ({
+const ProjectPostTemplate = ({
   content,
   contentComponent,
   tags,

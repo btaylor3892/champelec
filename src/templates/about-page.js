@@ -6,12 +6,7 @@ import Helmet from 'react-helmet';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
-export const AboutPageTemplate = ({
-  title,
-  image,
-  content,
-  contentComponent,
-}) => {
+const AboutPageTemplate = ({ title, image, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
   const src = !!image.childImageSharp && getSrc(image.childImageSharp);
   return (

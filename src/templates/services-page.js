@@ -7,7 +7,7 @@ import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
 import { PreviewCompatibleImage } from '../components/PreviewCompatibleImage';
 
-export const ServicePageTemplate = ({
+const ServicePageTemplate = ({
   image,
   title,
   heading,

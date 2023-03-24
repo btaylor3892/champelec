@@ -7,7 +7,7 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import HomeProjectRoll from '../components/HomeProjectRoll';
 
-export const IndexPageTemplate = ({
+const IndexPageTemplate = ({
   image,
   title,
   heading,
