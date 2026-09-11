@@ -42,7 +42,7 @@ async function main() {
   });
 
   await compile({
-    entry: require.resolve("react-dom/client"),
+    entry: path.join(__dirname, "react-dom-umd-entry.js"),
     externals: {
       react: "React",
     },

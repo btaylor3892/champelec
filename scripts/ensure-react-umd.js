@@ -1,17 +1,8 @@
 const fs = require("fs");
 const path = require("path");
-const { spawnSync } = require("child_process");
 
 const root = path.join(__dirname, "..");
 const vendor = path.join(root, "vendor", "react-umd");
-
-const built = spawnSync(process.execPath, [path.join(__dirname, "build-react-umd.js")], {
-  cwd: root,
-  stdio: "inherit",
-});
-if (built.status !== 0) {
-  process.exit(built.status || 1);
-}
 
 const copies = [
   ["react.production.min.js", "react"],
