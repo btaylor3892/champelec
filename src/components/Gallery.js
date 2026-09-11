@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import ImageGallery from 'react-image-gallery';
-import { getSrc } from 'gatsby-plugin-image';
-import 'react-image-gallery/styles/scss/image-gallery.scss';
+import React, { Component } from "react";
+import ImageGallery from "react-image-gallery";
+import { getSrc } from "gatsby-plugin-image";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 class Gallery extends Component {
   render() {

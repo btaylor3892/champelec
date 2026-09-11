@@ -76,8 +76,8 @@ const Footer = class extends React.Component {
 &#105;&#110;&#102;&#111;&#064;&#099;&#104;&#097;&#109;&#112;&#105;&#111;&#110;&#101;&#108;&#101;&#099;&#116;&#114;&#105;&#099;&#097;&#108;&#046;&#110;&#101;&#116;">&#105;&#110;&#102;&#111;&#064;&#099;&#104;&#097;&#109;&#112;&#105;&#111;&#110;&#101;&#108;&#101;&#099;&#116;&#114;&#105;&#099;&#097;&#108;&#046;&#110;&#101;&#116;</a>
                     </li>
                     <li>
-                      <a className="navbar-item is-bold" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/2875+Jupiter+Park+Dr+%23500,+Jupiter,+FL+33458/@26.9282278,-80.1412249,258m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88ded67dd0f495ab:0xcc4e0e268cd2f0dc!8m2!3d26.9282266!4d-80.1406777">
-                        <span className="address">2875 Jupiter Park Drive #500</span>
+                      <a className="navbar-item is-bold" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query=1005+W+Indiantown+Road+Suite+202+Jupiter+FL+33458">
+                        <span className="address">1005 W Indiantown Road, Suite 202</span>
                         <br />
                         <span className="address">Jupiter, FL 33458</span>
                       </a>

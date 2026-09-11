@@ -1,8 +1,8 @@
-import React from 'react'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
-import Layout from '../../components/Layout'
+import React from "react";
+import { kebabCase } from "lodash";
+import Helmet from "react-helmet";
+import { Link, graphql } from "gatsby";
+import Layout from "../../components/Layout";
 
 const TagsPage = ({
   data: {
@@ -19,16 +19,30 @@ const TagsPage = ({
         <div className="columns">
           <div
             className="column is-10 is-offset-1"
-            style={{ marginBottom: '6rem' }}
+            style={{ marginBottom: "6rem" }}
           >
-            <h1 className="title is-size-2 is-bold-light">Project Market Sectors</h1>
+            <h1 className="title is-size-2 is-bold-light">
+              Project Market Sectors
+            </h1>
             <ul className="taglist">
-              {group.map(tag => (
-                <li key={tag.fieldValue} style={{textAlign: 'center'}}>
-                  <Link to={`/sectors/${kebabCase(tag.fieldValue)}/`} style={{color: '#333', fontSize: '1.5rem'}}>
+              {group.map((tag) => (
+                <li key={tag.fieldValue} style={{ textAlign: "center" }}>
+                  <Link
+                    to={`/sectors/${kebabCase(tag.fieldValue)}/`}
+                    style={{ color: "#333", fontSize: "1.5rem" }}
+                  >
                     {tag.fieldValue} ({tag.totalCount})
-                    <div style={{width: `6rem`, textAlign: 'center', fontSize: '4rem', color: 'white', backgroundColor: '#032bdf', margin: '0 auto'}}>
-                      {tag.fieldValue.slice(0,1).toUpperCase()}
+                    <div
+                      style={{
+                        width: `6rem`,
+                        textAlign: "center",
+                        fontSize: "4rem",
+                        color: "white",
+                        backgroundColor: "#032bdf",
+                        margin: "0 auto",
+                      }}
+                    >
+                      {tag.fieldValue.slice(0, 1).toUpperCase()}
                     </div>
                   </Link>
                 </li>
@@ -39,9 +53,9 @@ const TagsPage = ({
       </div>
     </section>
   </Layout>
-)
+);
 
-export default TagsPage
+export default TagsPage;
 
 export const tagPageQuery = graphql`
   query TagsQuery {
@@ -51,10 +65,10 @@ export const tagPageQuery = graphql`
       }
     }
     allMarkdownRemark(limit: 1000) {
-      group(field: frontmatter___tags) {
+      group(field: { frontmatter: { tags: SELECT } }) {
         fieldValue
         totalCount
       }
     }
   }
-`
+`;

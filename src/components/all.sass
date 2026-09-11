@@ -1,18 +1,84 @@
-@import "~bulma/sass/utilities/initial-variables"
+@import "~bulma/sass/utilities/initial-variables";
 
-// Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #333
-$kaldi-red-invert: #fff
+// --- 1. ALL VARIABLES GO HERE ---
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+// Your brand overrides
+$primary: #333;
+$primary-invert: #fff;
+$black: #2b2523;
+
 $body-color: #333
-$black: #2b2523
+$scheme-main: $white
+$scheme-invert: $black
+$body-background-color: $white
+
+$link: $primary;
+
+// Menu overrides
+$menu-item-color: $white-ter;
+$menu-item-hover-color: $black !important;
+$menu-item-hover-background-color: $black;
+$menu-item-active-color: $primary-invert;
+$menu-item-active-background-color: $primary-invert;
+$menu-list-border-left: 1px solid $primary-invert;
+$menu-label-color: $white-ter;
+
+
+
+// --- 2. IMPORT BULMA ---
+@import '~bulma/sass/utilities/mixins';
+@import "~bulma";
+
+
+// --- 3. ALL CUSTOM CSS RULES GO HERE ---
+
+:root
+  --bulma-primary-h: 0deg
+  --bulma-primary-s: 0%
+  --bulma-primary-l: 20%
+  --bulma-family-primary: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif
+  --bulma-family-secondary: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif
+  --bulma-title-weight: 600
+
+html
+  color-scheme: light
+  background-color: #fff
+
+html,
+body
+  background-color: #fff !important
+  color: #333
+
+.navbar
+  background-color: #fff !important
+
+.navbar-menu
+  background-color: #fff !important
+
+.navbar .navbar-item,
+.navbar .navbar-link
+  color: #333 !important
+
+.navbar-burger
+  color: #333 !important
+
+footer.footer,
+footer.footer a,
+footer.footer .navbar-item,
+footer.footer .menu-list a,
+footer.footer .has-text-white-ter
+  color: #fff !important
 
 .navbar .navbar-menu
   box-shadow: none !important
   min-height: 5rem
+
+a.title .post-meta,
+.post-meta
+  color: #333 !important
+  font-weight: 600
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif
+  letter-spacing: normal
 
 .content .taglist
   list-style: none
@@ -87,16 +153,10 @@ $black: #2b2523
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-color: #2b2523 !important
 
-//Menu overrides
-$menu-item-color: $white-ter
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color: 	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
-$menu-label-color: $white-ter
+footer.footer .has-background-black
+  background-color: #2b2523 !important
 
 .address
   margin: 0
@@ -128,8 +188,6 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%
   margin: 0 auto
-
-@import "~bulma"
 
 .is-capitalized
   text-transform: capitalize !important

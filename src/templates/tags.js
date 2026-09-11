@@ -1,8 +1,8 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import { Link, graphql } from 'gatsby';
-import Layout from '../components/Layout';
-import SectorProjectRoll from '../components/SectorProjectRoll';
+import React from "react";
+import Helmet from "react-helmet";
+import { Link, graphql } from "gatsby";
+import Layout from "../components/Layout";
+import SectorProjectRoll from "../components/SectorProjectRoll";
 
 class TagRoute extends React.Component {
   render() {
@@ -10,23 +10,23 @@ class TagRoute extends React.Component {
     const title = this.props.data.site.siteMetadata.title;
     const totalCount = this.props.data.allMarkdownRemark.totalCount;
     const tagHeader = `${totalCount} Project${
-      totalCount === 1 ? '' : 's'
+      totalCount === 1 ? "" : "s"
     } in ${tag} Market Sector`;
 
     return (
       <Layout>
-        <section className='section'>
+        <section className="section">
           <Helmet title={`${tag} | ${title}`} />
-          <div className='container content'>
-            <div className='columns'>
+          <div className="container content">
+            <div className="columns">
               <div
-                className='column is-10 is-offset-1'
-                style={{ marginBottom: '6rem' }}
+                className="column is-10 is-offset-1"
+                style={{ marginBottom: "6rem" }}
               >
-                <h3 className='title is-size-4 is-bold-light'>{tagHeader}</h3>
+                <h3 className="title is-size-4 is-bold-light">{tagHeader}</h3>
                 <SectorProjectRoll data={this.props.data} />
                 <p>
-                  <Link className='btn' to='/sectors/'>
+                  <Link className="btn" to="/sectors/">
                     Browse All Market Sectors
                   </Link>
                 </p>
@@ -50,7 +50,7 @@ export const tagPageQuery = graphql`
     }
     allMarkdownRemark(
       limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
       totalCount

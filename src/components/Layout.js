@@ -11,7 +11,7 @@ const TemplateWrapper = ({ children, location }) => {
   return (
     <div>
       <Helmet>
-        <html lang="en" />
+        <html lang="en" data-theme="light" />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta charset="utf-8" />
@@ -35,7 +35,7 @@ const TemplateWrapper = ({ children, location }) => {
           property="og:image"
           content={`${siteUrl}${image}`}
         />
-        <meta property="business:contact_data:street_address" content="2875 Jupiter Park Drive #500" />
+        <meta property="business:contact_data:street_address" content="1005 W Indiantown Road, Suite 202" />
         <meta property="business:contact_data:locality" content="Jupiter" />
         <meta property="business:contact_data:region" content="Florida" />
         <meta property="business:contact_data:postal_code" content="33458" />
